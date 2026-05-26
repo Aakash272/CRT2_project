@@ -8,8 +8,8 @@
 		<version>4.0.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.Batch_4_Microservice</groupId>
-	<artifactId>Player</artifactId>
+	<groupId>com.Batch_b4_player</groupId>
+	<artifactId>player</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name/>
 	<description/>

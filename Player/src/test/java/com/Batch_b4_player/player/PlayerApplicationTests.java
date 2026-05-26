@@ -1,4 +1,4 @@
-package com.Batch_4_Microservice.Player;
+package com.Batch_b4_player.player;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

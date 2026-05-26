@@ -8,16 +8,31 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
         </processorPath>
-        <module name="Player" />
         <module name="Microservice" />
       </profile>
+      <profile name="Annotation profile for Junit" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
+        </processorPath>
+        <module name="Junit" />
+        <module name="player" />
+      </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Player" target="21" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Junit" options="-parameters" />
       <module name="Microservice" options="-parameters" />
       <module name="Player" options="-parameters" />
+      <module name="player" options="-parameters" />
     </option>
   </component>
 </project>

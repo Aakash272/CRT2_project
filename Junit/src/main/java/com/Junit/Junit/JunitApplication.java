@@ -1,13 +1,13 @@
-package com.Batch_4_Microservice.Player;
+package com.Junit.Junit;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PlayerApplication {
+public class JunitApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PlayerApplication.class, args);
+		SpringApplication.run(JunitApplication.class, args);
 	}
 
 }
